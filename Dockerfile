@@ -6,7 +6,7 @@ MAINTAINER "ananabeka@wpi.edu"
 
 RUN  apt  -y update
 
-/bin/sh  -c  apt-get  update
+ENV TOMCAT_MAJOR=8
 
 WORKDIR  /usr/local/tomcat
 
