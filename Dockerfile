@@ -10,4 +10,4 @@ ENV TOMCAT_MAJOR=8
 
 WORKDIR  /usr/local/tomcat
 
-COPY   /webapp/target/webapp.war    /usr/local/tomcat/webapps
+COPY   /webapp/target/albert.war    /usr/local/tomcat/webapps
