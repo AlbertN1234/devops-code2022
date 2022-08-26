@@ -8,6 +8,6 @@ RUN  apt  -y update
 
 ENV TOMCAT_MAJOR=8
 
-WORKDIR  /usr/local/tomcat
+WORKDIR  /usr/local/tomcat/webapps
 
 COPY   /webapp/target/albert.war    /usr/local/tomcat/webapps
