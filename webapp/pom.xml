@@ -13,7 +13,7 @@
   <artifactId>albert</artifactId>
   <packaging>war</packaging>
   <name>albert</name>
-  <description>al.</description>
+  <description>albert.</description>
 
   <build>
     <finalName>${project.artifactId}</finalName>
